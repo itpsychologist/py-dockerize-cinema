@@ -16,7 +16,7 @@ RUN pip install -r requirements.txt
 # Copy application code
 COPY . .
 
-RUN mkdir -p /vol/web/media
+RUN mkdir -p /files/media
 
 RUN adduser \
         --disabled-password \
